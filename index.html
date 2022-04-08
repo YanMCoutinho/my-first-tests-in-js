@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="test-menu">
+            <div class="group-toggle">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+
+            <div class="tests">
+                <div class="tests-results">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="calculator">
+            <h1>Calculadora</h1>
+            <input id="result" placeholder="Resultado" readonly disabled>
+            <input type="text" name="number1" id="number1" placeholder="Digite um número">
+            <input type="text" name="number2" id="number2" placeholder="Digite um número">
+            <input type="text" name="operation" id="operation" placeholder="Digite uma operação">
+            <button class="submit" id="submit" onclick="calculate('#calculator')">Calcular</button>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/test.js"></script>
+    <script src="./js/test-menu.js"></script>
+</body>
+</html>
